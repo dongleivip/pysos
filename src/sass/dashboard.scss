@@ -1,20 +1,27 @@
 
 .input-panel {
-    margin-top: 50px;
+    margin-top: 24px;
+    display: flex;
+    flex-direction: column;
 }
 
 .input-row {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: left;
-
+    border-bottom: 1px solid grey;
+    padding: 10px 0;
 }
 
 .input-row_cell {
-    margin: 10px 5px;
+    margin: 10px 6px;
 }
 
 .input-row_cell > label {
-    width: 20px;
     display: inline-block;
+    width: 10%;
+}
+
+.output-panel {
+    padding: 16px 0;
 }

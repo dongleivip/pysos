@@ -201,7 +201,6 @@ class Dashboard extends Component {
 
               </div>
 
-              <hr />
               <div className="output-panel">
                   <div className="output-row">
                       <label>X + (A1 + Q) </label>
